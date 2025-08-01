@@ -22,6 +22,11 @@ body {
 }
 
 h2{
+  font-size: 2.75rem;
+  font-weight: 600;
+}
+
+h3{
   font-size: 2.25rem;
   font-weight: 600;
 }
@@ -50,7 +55,7 @@ p{
 
 /* MAIN */
 
-/* ============ */
+/* ================ */
 
 /* SECTION HERO */
 .hero-container{
@@ -77,7 +82,6 @@ p{
 }
 
 .hero-text-content .hero-content-title-subtitle h2{
-  font-size: 2.75rem;
   line-height: 1.2;
 }
 
@@ -120,7 +124,7 @@ p{
 .hero-text-content .hero-content-cards .card p{
   color: var(--text-muted-dark);
   font-size: 0.75rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .hero-text-content .hero-content-cards .vertical-line{
@@ -130,7 +134,7 @@ p{
   border: 0;
 }
 
-/* ============ */
+/* ================ */
 
 /* SECTION BRAND LOGOS */
 .brand-logos-container{
@@ -165,5 +169,47 @@ p{
   justify-self: start;
 }
 
+/* ================ */
+
+/* SECTION CREDIT CARDS (CC) */
+.credit-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 1rem 4.5rem 1.7rem;
+}
 
 
+.credit-cards-content .cc-title-and-subtitle h3{
+  margin-top: 1.5rem;
+  line-height: 1.2;
+}
+
+.credit-cards-content .cc-title-and-subtitle p{
+  font-family: var(--font-family-inter);
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.cc-director-comment{
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cc-director-comment .director-comment{
+  font-family: var(--font-family-inter);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cc-director-comment .director-infos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-top: 2rem;
+}
