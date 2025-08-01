@@ -171,8 +171,8 @@ p{
 
 /* ================ */
 
-/* SECTION CREDIT CARDS (CC) */
-.credit-cards{
+/* SECTION ABOUT US */
+.about-us{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,12 +181,12 @@ p{
 }
 
 
-.credit-cards-content .cc-title-and-subtitle h3{
+.about-us-content .as-title-and-subtitle h3{
   margin-top: 1.5rem;
   line-height: 1.2;
 }
 
-.credit-cards-content .cc-title-and-subtitle p{
+.about-us-content .as-title-and-subtitle p{
   font-family: var(--font-family-inter);
   color: var(--text-muted);
   line-height: 1.6;
@@ -194,19 +194,19 @@ p{
   font-weight: 500;
 }
 
-.cc-director-comment{
+.as-director-comment{
   margin-top: 4.5rem;
   display: flex;
   flex-direction: column;
 }
 
-.cc-director-comment .director-comment{
+.as-director-comment .director-comment{
   font-family: var(--font-family-inter);
   font-weight: 400;
   font-size: 16px;
 }
 
-.cc-director-comment .director-infos{
+.as-director-comment .director-infos{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -221,19 +221,61 @@ p{
   align-items: center;
 }
 
-.cc-director-comment .director-name-job{
+.as-director-comment .director-name-job{
   padding-left: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
 }
 
-.cc-director-comment .director-name-job #director-job{
+.as-director-comment .director-name-job #director-job{
   color: var(--text-muted);
   font-weight: 500;
   line-height: 1.2;
 }
 
-.cc-director-comment .director-name-job #director-name{
+.as-director-comment .director-name-job #director-name{
   font-weight: 600;
+}
+
+/* ================ */
+
+/* SECTION STATISTICS */
+.statistcs{
+  padding: 5rem 0.7rem;
+}
+
+.statistcs .statistcs-title{
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.statistcs .statistcs-cards{
+    margin-top: 4rem;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.statistcs .statistcs-cards .card{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #EDEDED;
+  border-radius: 16px;
+  padding: 1.5rem 1.5rem;
+}
+
+.statistcs .statistcs-cards .card h4{
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.statistcs .statistcs-cards .card p{
+  color: var(--text-muted);
+  font-weight: 400;
 }
