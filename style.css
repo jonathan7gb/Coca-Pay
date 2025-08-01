@@ -202,7 +202,7 @@ p{
 
 .cc-director-comment .director-comment{
   font-family: var(--font-family-inter);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
 }
 
@@ -211,5 +211,29 @@ p{
   flex-direction: row;
   align-items: center;
   justify-content: start;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+}
+
+.director-infos .director-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cc-director-comment .director-name-job{
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.cc-director-comment .director-name-job #director-job{
+  color: var(--text-muted);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.cc-director-comment .director-name-job #director-name{
+  font-weight: 600;
 }
