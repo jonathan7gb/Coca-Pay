@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --primary-color: #1053f3;
+  --primary-color: #1053F3;
   --background-color: #F7F9FF;
   --text-muted: #757b8a;
   --text-muted-dark: #101010;
@@ -49,6 +49,10 @@ p{
 
 
 /* MAIN */
+
+/* ============ */
+
+/* SECTION HERO */
 .hero-container{
   max-width: 100%;
   padding: 1rem;
@@ -60,7 +64,7 @@ p{
 
 .hero-women-image{
   max-width: 95%;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .hero-women-image img{
@@ -68,12 +72,13 @@ p{
 }
 
 .hero-text-content{
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
   padding: 0 0.2rem;
 }
 
 .hero-text-content .hero-content-title-subtitle h2{
   font-size: 2.75rem;
+  line-height: 1.2;
 }
 
 .hero-text-content .hero-content-title-subtitle p{
@@ -83,18 +88,18 @@ p{
 
 .hero-text-content .hero-content-button button{
   background-color: var(--primary-color);
-  padding: 1.2rem 2.3rem;
+  padding: 1.2rem 2rem;
   border: 0;
   color: white;
   font-family: var(--font-family-inter);
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   font-weight: 600;
   font-size: 1rem;
   border-radius: 8px;
 }
 
 .hero-text-content .hero-content-cards{
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -125,6 +130,40 @@ p{
   border: 0;
 }
 
+/* ============ */
+
+/* SECTION BRAND LOGOS */
+.brand-logos-container{
+  background-color: var(--primary-color);
+  padding: 3rem 1rem 2.5rem 1.7rem;
+  margin-top: 3.8rem;
+}
+
+.brand-logos-container .logos-grid{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.brand-logos-container .logos-grid #paypal-logo{
+  width: 100%;
+}
+
+.brand-logos-container .logos-grid #forbes-logo{
+  width: 90%;
+}
+
+.brand-logos-container .logos-grid #bca-logo{
+  width: 60%;
+  justify-self: center;
+}
+
+.brand-logos-container .logos-grid #visa-logo{
+  width: 67%;
+  justify-self: start;
+}
 
 
 
