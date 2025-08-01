@@ -29,6 +29,7 @@ h2{
 h3{
   font-size: 2.25rem;
   font-weight: 600;
+  letter-spacing: -1px;
 }
 
 p{
@@ -172,7 +173,11 @@ p{
 /* ================ */
 
 /* SECTION ABOUT US */
-.about-us{
+.about-us-section{
+  background-color: white;
+}
+
+.container-about-us{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,7 +188,6 @@ p{
 
 .about-us-content .as-title-and-subtitle h3{
   margin-top: 1.5rem;
-  line-height: 1.2;
 }
 
 .about-us-content .as-title-and-subtitle p{
@@ -241,27 +245,32 @@ p{
 /* ================ */
 
 /* SECTION STATISTICS */
-.statistcs{
+.statistcs-section{
+  background-color: white;
+}
+
+.container-statistcs{
   padding: 5rem 0.7rem;
 }
 
-.statistcs .statistcs-title{
+.container-statistcs .statistcs-title{
   text-align: center;
   line-height: 1.2;
   letter-spacing: -1px;
 }
 
-.statistcs .statistcs-cards{
-    margin-top: 4rem;
-    padding: 0rem 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
+.container-statistcs .statistcs-cards{
+  margin-top: 4rem;
+  padding: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.statistcs .statistcs-cards .card{
+.container-statistcs .statistcs-cards .card{
   display: flex;
   flex-direction: column;
   border: 1px solid #EDEDED;
@@ -269,13 +278,181 @@ p{
   padding: 1.5rem 1.5rem;
 }
 
-.statistcs .statistcs-cards .card h4{
+.container-statistcs .statistcs-cards .card h4{
   font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: -1px;
 }
 
-.statistcs .statistcs-cards .card p{
+.container-statistcs .statistcs-cards .card p{
   color: var(--text-muted);
   font-weight: 400;
+}
+
+/* ================ */
+
+/* SECTION FEATURES */
+.features-section{
+  background-color: var(--background-color);
+  padding-top: 6rem;
+}
+
+.container-features{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-content{
+  padding: 0.5rem 0.7rem 0rem 1.5rem;
+}
+
+.feature-content h3{
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+}
+
+.feature-content p{
+  font-family: var(--font-family-inter);
+  line-height: 1.5;
+  font-weight: 700;
+  width: 90%;
+}
+
+.feature-content #feature-content-p-muted{
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 5.5rem;
+  width: 95%;
+  line-height: 1.6;
+}
+
+/* ================ */
+
+/* SECTION JOIN NOW */
+.join-now-section{
+  background-color: white;
+}
+
+.container-join-now{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 5rem 1.2rem 0rem 2rem;
+}
+
+.jn-title-subtitle h3{
+  letter-spacing: -1px;
+}
+
+.jn-title-subtitle p{
+  color: var(--text-muted);
+  font-family: var(--font-family-inter);
+  margin-top: 1.5rem;
+  line-height: 1.6;
+  font-weight: 500;
+  width: 95%;
+}
+
+.jn-buttons{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+
+.jn-buttons button{
+  font-size: 1rem;
+  font-family: var(--font-family-inter);
+  font-weight: bold;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  padding: 1.2rem 2rem;
+  color: white; 
+  border-radius: 8px;
+
+}
+
+.jn-buttons #learn-more{
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.join-now-cards{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-now-cards .card .card-icon{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+}
+
+.join-now-cards .card p{
+ font-family: var(--font-family-inter);
+ font-weight: bold;
+}
+
+.join-now-cards .card .jn-text-muted{
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+  width: 80%;
+  line-height: 1.5;
+}
+
+
+/* ================ */
+
+/* SECTION SERVICES */
+.services-section{
+  background-color: white;
+}
+
+.container-services{
+  padding: 5rem 0rem 0rem 1.2rem; 
+}
+
+.container-services .title-subtitle{
+  padding-right: 1rem;
+}
+
+.container-services .title-subtitle h3{
+  width: 90%;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.container-services .title-subtitle p{
+  color: var(--text-muted);
+  font-weight: 500;
+  font-family: var(--font-family-inter);
+  line-height: 1.6;
+}
+
+.container-services .services-image{
+  margin-top: 1.5rem;
 }
