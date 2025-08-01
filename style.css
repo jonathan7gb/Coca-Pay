@@ -4,8 +4,11 @@
 
 :root {
   --primary-color: #1053f3;
-  --background-color: #ffffff;
+  --background-color: #F7F9FF;
   --text-muted: #757b8a;
+  --text-muted-dark: #101010;
+  --font-family-poppins: "Poppins", sans-serif;
+  --font-family-inter: "Inter", sans-serif;
 }
 
 * {
@@ -15,9 +18,21 @@
 
 body {
   background-color: var(--background-color);
+  font-family: var(--font-family-poppins);
+}
+
+h2{
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+p{
+  font-weight: 500;
 }
 
 /* MOBILE FIRST */
+
+/* HEADER */
 .site-header {
   padding: 1.2rem 1.5rem;
 }
@@ -28,3 +43,88 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+
+/*  ======================================  */
+
+
+/* MAIN */
+.hero-container{
+  max-width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-women-image{
+  max-width: 95%;
+  margin-top: 1rem;
+}
+
+.hero-women-image img{
+  width: 100%;
+}
+
+.hero-text-content{
+  margin-top: 1.5rem;
+  padding: 0 0.2rem;
+}
+
+.hero-text-content .hero-content-title-subtitle h2{
+  font-size: 2.75rem;
+}
+
+.hero-text-content .hero-content-title-subtitle p{
+  margin-top: 1.2rem;
+  color: var(--text-muted);
+}
+
+.hero-text-content .hero-content-button button{
+  background-color: var(--primary-color);
+  padding: 1.2rem 2.3rem;
+  border: 0;
+  color: white;
+  font-family: var(--font-family-inter);
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.hero-text-content .hero-content-cards{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.hero-text-content .hero-content-cards .card{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text-content .hero-content-cards .card h3{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.hero-text-content .hero-content-cards .card p{
+  color: var(--text-muted-dark);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.hero-text-content .hero-content-cards .vertical-line{
+  height: 3rem;
+  width: 1px;
+  background-color: #dadada;
+  border: 0;
+}
+
+
+
+
