@@ -5,6 +5,7 @@
 :root {
   --primary-color: #1053F3;
   --background-color: #F7F9FF;
+  --white-color: #FFFFFF;
   --text-muted: #757b8a;
   --text-muted-dark: #101010;
   --font-family-poppins: "Poppins", sans-serif;
@@ -107,7 +108,7 @@ p{
   background-color: var(--primary-color);
   padding: 1.2rem 2rem;
   border: 0;
-  color: white;
+  color: var(--white-color);
   font-family: var(--font-family-inter);
   margin-top: 2.5rem;
   font-weight: 600;
@@ -186,7 +187,7 @@ p{
 
 /* SECTION ABOUT US */
 .about-us-section{
-  background-color: white;
+  background-color: var(--white-color);
 }
 
 .container-about-us{
@@ -258,7 +259,7 @@ p{
 
 /* SECTION STATISTICS */
 .statistcs-section{
-  background-color: white;
+  background-color: var(--white-color);
 }
 
 .container-statistcs{
@@ -357,7 +358,7 @@ p{
 
 /* SECTION JOIN NOW */
 .join-now-section{
-  background-color: white;
+  background-color: var(--white-color);
 }
 
 .container-join-now{
@@ -396,7 +397,7 @@ p{
   border: 1px solid var(--primary-color);
   background-color: var(--primary-color);
   padding: 1.2rem 2rem;
-  color: white; 
+  color: var(--white-color); 
   border-radius: 8px;
 
 }
@@ -450,7 +451,7 @@ p{
 
 /* SECTION SERVICES */
 .services-section{
-  background-color: white;
+  background-color: var(--white-color);
 }
 
 .container-services{
@@ -517,12 +518,21 @@ p{
 /* FOOTER */
 
 /* ================ */
+  .footer{
+    background-image: url("./images/footer-background.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    background-position: left 115% bottom -200px;
+  }
+
 .footer{
   background-color: var(--primary-color);
 }
 
 .container-footer{
-  color: white;
+  color: var(--white-color);
   padding: 5rem 0rem 2.5rem 0rem;
 }
 
@@ -559,7 +569,7 @@ p{
 }
 
 .footer-contact .card .contact-card-icon{
-  background-color: white;
+  background-color: var(--white-color);
   width: 46px;
   height: 46px;
   border-radius: 100px;
@@ -591,7 +601,7 @@ p{
 }
 
 .footer-infos-grid a{
-  color: white;
+  color: var(--white-color);
   text-decoration: none;
   font-weight: 300;
   font-size: 1rem;
@@ -726,6 +736,15 @@ p{
   /* ========================== */
   
   /* FOOTER SECTION */
+    .footer{
+    background-image: url("./images/footer-background.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    background-position: left 80% bottom -200px;
+  }
+
   .container-footer .footer-title h2{
     width: 60%;
   }
@@ -795,7 +814,7 @@ p{
     font-family: var(--font-family-inter);
     background-color: var(--primary-color);
     font-weight: 700;
-    color: white;
+    color: var(--white-color);
     border: 0;
     padding: 1rem 2rem;
     border-radius: 8px;
@@ -1056,6 +1075,15 @@ p{
   /* ============================== */
     
   /* FOOTER */
+  .footer{
+    background-image: url("./images/footer-background.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    background-position: left 80% bottom -200px;
+  }
+
   .container-footer{
     padding-bottom: 1rem;
   }
