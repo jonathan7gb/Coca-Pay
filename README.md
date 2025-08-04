@@ -11,7 +11,7 @@ Este projeto consiste na construção de uma página web responsiva a partir de 
 https://www.figma.com/design/q4PVEfCHnec3sdwt00OByL/Coca-Pay?node-id=0-1&t=0wsciRiks5D2eurd-1
 
 ## Link do Projeto Finalizado
-
+https://coca-pay.vercel.app/
 
 O layout possui duas versões:  
 📱 Mobile (375px)  
@@ -26,10 +26,10 @@ O layout possui duas versões:
 
 - ## 🛠️ Estrutura do Projeto
 
-📁 projeto-coca-pay/
-├── index.html
-├── style.css
-├── /images
+📁 projeto-coca-pay/ <br>
+├── index.html<br>
+├── style.css<br>
+├── /images<br>
 └── README.md
 
 ## 🚀 Como Executar o Projeto Localmente
