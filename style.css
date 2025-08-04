@@ -312,6 +312,10 @@ p{
   align-items: center;
 }
 
+#feature-image-tablet{
+  display: none;
+}
+
 .feature-content{
   padding: 0.5rem 0.7rem 0rem 1.5rem;
 }
@@ -592,4 +596,134 @@ p{
 
 .footer-infos-grid #copyright{
   grid-area: copyright;
+}
+
+
+
+/* ==================================== */
+
+
+/* TABLET */
+@media (min-width: 768px){
+
+  /* HERO SECTION */
+  .hero-container{
+    padding: 1rem 3rem 1rem 3.5rem;
+  }
+
+  .hero-content-cards{
+    width: 40vw !important;
+  }
+
+  /* ========================== */
+
+  /* BRAND LOGOS SECTION */
+  .brand-logos-container{
+    background-color: var(--primary-color);
+    padding: 3rem 1rem 2.5rem 1.7rem;
+    margin-top: 3.8rem;
+  }
+  
+  .brand-logos-container .logos-grid{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+  }
+  
+  /* ========================== */
+  
+  /* ABOUT US SECTION */
+  .container-about-us{
+    padding: 4.5rem 3rem 4.5rem 3.5rem;
+  }
+  
+  /* ========================== */
+  
+  /* STATISTCS SECTION */
+  .container-statistcs{
+    padding: 6rem 3.5rem;
+  }
+  
+  .container-statistcs .statistcs-title{
+    width: 60vw;
+    justify-self: center;
+  }
+
+  /* ========================== */
+  
+  /* FEATURE SECTION */
+  #feature-image-tablet{
+    display: flex;
+  }
+  
+  #feature-image-mobile{
+    display: none;
+  }
+  
+  .feature-content{
+    padding: 1rem 3.5rem 0rem 4rem;
+  }
+
+  /* ========================== */
+  
+  /* JOIN NOW SECTION */
+  .container-join-now{
+    padding: 5rem 3rem 0rem 3.5rem;
+  }
+  
+  .join-now-cards{
+    margin-top: 4rem;
+  }
+  
+  .join-now-cards .card .jn-text-muted{
+    width: 60%;
+  }
+
+  /* ========================== */
+  
+  /* SERVICES SECTION */
+  .container-services{
+    padding: 5rem 3rem 0rem 3.5rem;
+  }
+  
+  .container-services .title-subtitle{
+    text-align: center;
+    padding: 0rem;
+  }
+  
+  .container-services .title-subtitle br{
+    display: none;
+  }
+  
+  .container-services .title-subtitle h3{
+    width: 100%;
+  }
+  
+  .container-services .services-image{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .services-cards{
+    margin-top: 2.5rem;
+  }
+  
+
+  /* ========================== */
+  
+  /* FOOTER SECTION */
+  .footer-contact{
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .footer-infos-grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "terms privacy copyright";
+    gap: 1rem;
+    margin-top: 3.5rem;
+  }
 }
