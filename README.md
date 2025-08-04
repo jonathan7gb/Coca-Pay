@@ -13,10 +13,6 @@ https://www.figma.com/design/q4PVEfCHnec3sdwt00OByL/Coca-Pay?node-id=0-1&t=0wsci
 ## Link do Projeto Finalizado
 https://coca-pay.vercel.app/
 
-O layout possui duas versões:  
-📱 Mobile (375px)  
-💻 Desktop (1440px)  
-
 ## 🎯 Tecnologias Utilizadas
 
 - HTML5 (estrutura semântica)
