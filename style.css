@@ -54,6 +54,10 @@ p{
   display: none;
 }
 
+.navbar-desktop{
+  display: none;
+}
+
 
 /*  ======================================  */
 
@@ -773,7 +777,7 @@ p{
   .navbar-desktop .navbar ul{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .navbar-desktop .navbar ul li{
@@ -803,13 +807,144 @@ p{
   /* HERO SECTION */
   .hero-container{
     flex-direction: row;
+    padding: 1rem 4rem 0rem 4rem;
+    gap: 10rem;
   }
-
+  
   #hero-image-desktop{
     display: flex;
   }
-
+  
   #hero-image-mobile{
     display: none;
+  }
+  
+  .hero-content-title-subtitle h2{
+    width: 90%;
+    font-size: 4rem;
+  }
+  
+  .hero-text-content .hero-content-title-subtitle p{
+    margin-top: 1.7rem;
+  }
+  
+  .hero-text-content .hero-content-cards{
+    width: 50% !important;
+    flex-wrap: wrap;
+  }
+  
+  /* ============================== */
+  
+  /* BRAND LOGOS SECTION */
+  .brand-logos-container{
+    margin-top: 0;
+  }
+  
+  .brand-logos-container .logos-grid{
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .brand-logos-container .logos-grid #paypal-logo{
+    width: 40%;
+    order: 4;
+  }
+  
+  .brand-logos-container .logos-grid #forbes-logo{
+    order: 1;
+    width: 45%;
+  }
+  
+  .brand-logos-container .logos-grid #bca-logo{
+    order: 2;
+    width: 40%;
+  }
+  
+  .brand-logos-container .logos-grid #visa-logo{
+    width: 40%;
+    justify-self: center;
+    order: 3;
+  }
+  
+  .brand-logos-container .logos-grid #gopay-logo{
+    display: flex !important;
+    order: 999 !important;
+  }
+
+  /* ============================== */
+  
+  /* ABOUT US SECTION */
+  .container-about-us{
+    flex-direction: row;
+    padding: 6rem 10rem 6rem 9rem !important;
+    gap: 10rem !important;
+  }
+
+  #credit-cards-mobile{
+    display: none;
+  }
+
+  #credit-cards-desktop{
+    display: flex !important;
+  }
+
+  .as-title-and-subtitle h3{
+    font-size: 2.5rem;
+  }
+
+  .about-us-content .as-title-and-subtitle p{
+    margin-top: 1rem;
+  }
+
+  .as-director-comment{
+    margin-top: 5.5rem;
+  }
+
+  
+  /* ============================== */
+  
+  /* STATISTCS SECTION */
+  .container-statistcs .statistcs-title{
+    width: 50%;
+  }
+  
+  .container-statistcs .statistcs-title h3{
+    font-size: 2.5rem;
+  }
+
+  .container-statistcs .statistcs-cards{
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5rem;
+    padding: 0rem 6rem;
+  }
+
+  .container-statistcs .statistcs-cards .card{
+    width: 100% !important;
+    padding: 1.5rem 1.5rem;
+  }
+
+  .container-statistcs .statistcs-cards .card p{
+    margin-top: 0.5rem;
+  }
+
+  /* ============================== */
+  
+  /* FEATURES SECTION */
+  .container-features{
+    flex-direction: row;
+  }
+
+  #feature-image-mobile, #feature-image-tablet{
+    display: none;
+  }
+
+  #feature-image-desktop{
+    display: flex !important;
+  }
+
+  .feature-content h3{
+    font-size: 2.5rem;
+    width: 90%;
   }
 }
