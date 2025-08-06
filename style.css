@@ -858,6 +858,7 @@ p{
   /* BRAND LOGOS SECTION */
   .brand-logos-container{
     margin-top: 0;
+    padding: 4rem 6rem;
   }
   
   .brand-logos-container .logos-grid{
@@ -865,22 +866,22 @@ p{
   }
   
   .brand-logos-container .logos-grid #paypal-logo{
-    width: 40%;
+    width: 50%;
     order: 4;
   }
   
   .brand-logos-container .logos-grid #forbes-logo{
     order: 1;
-    width: 45%;
+    width: 55%;
   }
   
   .brand-logos-container .logos-grid #bca-logo{
     order: 2;
-    width: 40%;
+    width: 50%;
   }
   
   .brand-logos-container .logos-grid #visa-logo{
-    width: 40%;
+    width: 50%;
     justify-self: center;
     order: 3;
   }
@@ -913,6 +914,7 @@ p{
 
   .about-us-content .as-title-and-subtitle p{
     margin-top: 1rem;
+    width: 80%;
   }
 
   .as-director-comment{
@@ -1075,6 +1077,7 @@ p{
     
   /* FOOTER */
   .footer{
+    width: 100%;
     background-image: url("./images/footer-background.png");
     background-repeat: no-repeat;
     position: absolute;
