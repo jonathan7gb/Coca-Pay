@@ -767,7 +767,7 @@ p{
 /* ==================================== */
 
 
-/* DESKTOP */
+/* DESKTOP*/
 @media (min-width: 1024px){
 
   /* HEADER */
@@ -1111,5 +1111,117 @@ p{
     "copyright terms privacy";
     justify-items: start;
     padding: 0rem 4rem 1.5rem 7rem;
+  }
+}
+
+/* DESKTOP (TELAS MAIORES) */
+@media (min-width: 1700px){
+
+  /* HEADER */
+  .navbar-desktop .navbar-button button{
+    font-family: var(--font-family-inter);
+    background-color: var(--primary-color);
+    font-weight: 700;
+    color: var(--white-color);
+    border: 0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+
+  /* ============================== */
+
+  /* HERO SECTION */
+  .hero-container{
+    padding: 1rem 10rem 0rem 10rem;
+  }
+
+  .hero-text-content{
+    width: 40%;
+  }
+
+  #hero-image-desktop{
+    width: 90%;    
+  }
+
+  .hero-content-title-subtitle h2{
+    width: 100%;
+  }
+
+  .hero-text-content .hero-content-cards{
+    width: 50% !important;
+  }
+
+  /* ============================== */
+  
+  /* BRAND LOGOS SECTION */
+  .brand-logos-container{
+    margin-top: 0;
+    padding: 2rem 6rem;
+  }
+
+  .brand-logos-container .logos-grid #paypal-logo{
+    width: 40%;
+  }
+  
+  .brand-logos-container .logos-grid #forbes-logo{
+    width: 45%;
+  }
+  
+  .brand-logos-container .logos-grid #bca-logo{
+    width: 40%;
+  }
+  
+  .brand-logos-container .logos-grid #visa-logo{
+    width: 40%;
+  }
+
+  /* ============================== */
+  
+  /* ABOUT US SECTION */
+  .container-about-us{
+    flex-direction: row;
+    padding: 6rem 15rem 6rem 15rem !important;
+    gap: 10rem !important;
+  }
+
+  /* ============================== */
+  
+  /* STATISTCS SECTION */
+  .container-statistcs {
+    padding: 6rem 10rem;
+  }
+  
+  /* ============================== */
+  
+  /* FEATURES SECTION */
+  .container-features{
+    flex-direction: row;
+    padding: 0rem 10rem;
+  }
+
+    /* ============================== */
+  
+  /* JOIN NOW SECTION */
+  .container-join-now{
+    padding: 5rem 10rem 0rem 15rem;
+  }
+
+    /* ============================== */
+    
+  /* SERVICES SECTION */
+  .container-services{
+    padding: 10rem 10rem 0rem 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+    /* ============================== */
+    
+  /* FOOTER */
+  .container-footer{
+    padding-right: 8rem;
+    padding-left: 8rem;
   }
 }
