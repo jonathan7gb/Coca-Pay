@@ -848,7 +848,7 @@ p{
   
   .hero-content-title-subtitle h1{
     width: 90%;
-    font-size: 4rem;
+    font-size: 4rem !important;
   }
   
   .hero-text-content .hero-content-title-subtitle p{
