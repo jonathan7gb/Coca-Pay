@@ -22,6 +22,7 @@ body {
   font-family: var(--font-family-poppins);
 }
 
+
 h2{
   font-size: 2.75rem;
   font-weight: 600;
@@ -95,8 +96,10 @@ p{
   padding: 0 0.2rem;
 }
 
-.hero-text-content .hero-content-title-subtitle h2{
+.hero-text-content .hero-content-title-subtitle h1{
   line-height: 1.2;
+  font-size: 2.75rem;
+  font-weight: 600;
 }
 
 .hero-text-content .hero-content-title-subtitle p{
@@ -800,6 +803,11 @@ p{
   }
 
   .navbar-desktop .navbar ul li{
+     list-style: none;
+   }
+    
+    .navbar-desktop .navbar ul li a{
+    text-decoration: none !important;
     list-style: none;
     font-weight: 400;
     color: var(--text-muted);
@@ -838,7 +846,7 @@ p{
     display: none;
   }
   
-  .hero-content-title-subtitle h2{
+  .hero-content-title-subtitle h1{
     width: 90%;
     font-size: 4rem;
   }
@@ -1144,8 +1152,8 @@ p{
     width: 90%;    
   }
 
-  .hero-content-title-subtitle h2{
-    width: 100%;
+  .hero-content-title-subtitle h1{
+    width: 95%;
   }
 
   .hero-text-content .hero-content-cards{
