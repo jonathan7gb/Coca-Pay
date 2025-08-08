@@ -61,14 +61,14 @@ p{
 }
 
 
-/*  ======================================  */
+/* ! ======================================  */
 
 
-/* MAIN */
+/* ? MAIN */
 
-/* ================ */
+/* ! ================ */
 
-/* SECTION HERO */
+/* ? SECTION HERO */
 .hero-container{
   max-width: 100%;
   padding: 1rem;
@@ -151,9 +151,9 @@ p{
   border: 0;
 }
 
-/* ================ */
+/* ! ================ */
 
-/* SECTION BRAND LOGOS */
+/* ? SECTION BRAND LOGOS */
 .brand-logos-container{
   background-color: var(--primary-color);
   padding: 3rem 1rem 2.5rem 1.7rem;
@@ -186,9 +186,9 @@ p{
   justify-self: start;
 }
 
-/* ================ */
+/* ! ================ */
 
-/* SECTION ABOUT US */
+/* ? SECTION ABOUT US */
 .about-us-section{
   background-color: var(--white-color);
 }
@@ -258,9 +258,9 @@ p{
   font-weight: 600;
 }
 
-/* ================ */
+/* ! ================ */
 
-/* SECTION STATISTICS */
+/* ? SECTION STATISTICS */
 .statistcs-section{
   background-color: var(--white-color);
 }
@@ -306,9 +306,9 @@ p{
   font-weight: 400;
 }
 
-/* ================ */
+/* ! ================ */
 
-/* SECTION FEATURES */
+/* ? SECTION FEATURES */
 .features-section{
   background-color: var(--background-color);
   padding-top: 6rem;
@@ -357,9 +357,9 @@ p{
   line-height: 1.6;
 }
 
-/* ================ */
+/* ! ================ */
 
-/* SECTION JOIN NOW */
+/* ? SECTION JOIN NOW */
 .join-now-section{
   background-color: var(--white-color);
 }
@@ -450,9 +450,9 @@ p{
 }
 
 
-/* ================ */
+/* ! ================ */
 
-/* SECTION SERVICES */
+/* ? SECTION SERVICES */
 .services-section{
   background-color: var(--white-color);
 }
@@ -515,12 +515,12 @@ p{
 }
 
 
-/*  ======================================  */
+/* ! ======================================  */
 
 
-/* FOOTER */
+/* ? FOOTER */
 
-/* ================ */
+/* ! ================ */
   .footer{
     background-image: url("./images/footer-background.png");
     background-repeat: no-repeat;
@@ -625,13 +625,13 @@ p{
 
 
 
-/* ==================================== */
+/* ! ==================================== */
 
 
-/* TABLET */
+/* * TABLET */
 @media (min-width: 768px){
 
-  /* HERO SECTION */
+  /* ? HERO SECTION */
   .hero-container{
     padding: 1rem 3rem 1rem 3.5rem;
   }
@@ -640,9 +640,9 @@ p{
     width: 40vw !important;
   }
 
-  /* ========================== */
+  /* ! ========================== */
 
-  /* BRAND LOGOS SECTION */
+  /* ? BRAND LOGOS SECTION */
   .brand-logos-container{
     background-color: var(--primary-color);
     padding: 3rem 1rem 2.5rem 1.7rem;
@@ -657,16 +657,16 @@ p{
     gap: 3rem;
   }
   
-  /* ========================== */
+  /* ! ========================== */
   
-  /* ABOUT US SECTION */
+  /* ? ABOUT US SECTION */
   .container-about-us{
     padding: 4.5rem 3rem 4.5rem 3.5rem;
   }
   
-  /* ========================== */
+  /* ! ========================== */
   
-  /* STATISTCS SECTION */
+  /* ? STATISTCS SECTION */
   .container-statistcs{
     padding: 6rem 3.5rem;
   }
@@ -676,9 +676,9 @@ p{
     justify-self: center;
   }
 
-  /* ========================== */
+  /* ! ========================== */
   
-  /* FEATURE SECTION */
+  /* ? FEATURE SECTION */
   #feature-image-tablet{
     display: flex;
   }
@@ -691,9 +691,9 @@ p{
     padding: 1rem 3.5rem 0rem 4rem;
   }
 
-  /* ========================== */
+  /* ! ========================== */
   
-  /* JOIN NOW SECTION */
+  /* ? JOIN NOW SECTION */
   .container-join-now{
     padding: 5rem 3rem 0rem 4rem;
   }
@@ -706,9 +706,9 @@ p{
     width: 60%;
   }
 
-  /* ========================== */
+  /* ! ========================== */
   
-  /* SERVICES SECTION */
+  /* ? SERVICES SECTION */
   .container-services{
     padding: 5rem 3rem 0rem 3.5rem;
   }
@@ -736,9 +736,9 @@ p{
   }
   
 
-  /* ========================== */
+  /* ! ========================== */
   
-  /* FOOTER SECTION */
+  /* ?FOOTER SECTION */
     .footer{
     background-image: url("./images/footer-background.png");
     background-repeat: no-repeat;
@@ -767,13 +767,13 @@ p{
 }
 
 
-/* ==================================== */
+/* ! ==================================== */
 
 
-/* DESKTOP*/
+/* * DESKTOP */
 @media (min-width: 1024px){
 
-  /* HEADER */
+  /* ? HEADER */
   .site-header {
     padding: 1.5rem 7rem;
   }
@@ -829,9 +829,9 @@ p{
     font-size: 1rem;
   }
 
-  /* ============================== */
+  /* ! ============================== */
 
-  /* HERO SECTION */
+  /* ? HERO SECTION */
   .hero-container{
     flex-direction: row;
     padding: 1rem 4rem 0rem 4rem;
@@ -861,9 +861,9 @@ p{
     margin-top: 6rem;
   }
   
-  /* ============================== */
+  /* ! ============================== */
   
-  /* BRAND LOGOS SECTION */
+  /* ? BRAND LOGOS SECTION */
   .brand-logos-container{
     margin-top: 0;
     padding: 4rem 6rem;
@@ -899,9 +899,9 @@ p{
     order: 999 !important;
   }
 
-  /* ============================== */
+  /* ! ============================== */
   
-  /* ABOUT US SECTION */
+  /* ? ABOUT US SECTION */
   .container-about-us{
     flex-direction: row;
     padding: 6rem 10rem 6rem 9rem !important;
@@ -930,9 +930,9 @@ p{
   }
 
   
-  /* ============================== */
+  /* ! ============================== */
   
-  /* STATISTCS SECTION */
+  /* ? STATISTCS SECTION */
   .container-statistcs .statistcs-title{
     width: 50%;
   }
@@ -958,9 +958,9 @@ p{
     margin-top: 0.5rem;
   }
 
-  /* ============================== */
+  /* ! ============================== */
   
-  /* FEATURES SECTION */
+  /* ? FEATURES SECTION */
   .container-features{
     flex-direction: row;
     padding: 0rem 3rem;
@@ -985,9 +985,9 @@ p{
     width: 90%;
   }
 
-  /* ============================== */
+  /* ! ============================== */
   
-  /* JOIN NOW SECTION */
+  /* ? JOIN NOW SECTION */
   .container-join-now{
     flex-direction: row;
     gap: 6rem;
@@ -1021,9 +1021,9 @@ p{
     width: 85%;
   }
   
-  /* ============================== */
+  /* ! ============================== */
     
-  /* SERVICES SECTION */
+  /* ? SERVICES SECTION */
   .container-services{
     padding: 10rem 6rem 0rem 10rem;
     display: flex;
@@ -1081,9 +1081,9 @@ p{
   }
 
 
-  /* ============================== */
+  /* ! ============================== */
     
-  /* FOOTER */
+  /* ? FOOTER */
   .footer{
     width: 100%;
     background-image: url("./images/footer-background.png");
@@ -1122,10 +1122,10 @@ p{
   }
 }
 
-/* DESKTOP (TELAS MAIORES) */
+/* * DESKTOP (TELAS MAIORES) */
 @media (min-width: 1700px){
 
-  /* HEADER */
+  /* ? HEADER */
   .navbar-desktop .navbar-button button{
     font-family: var(--font-family-inter);
     background-color: var(--primary-color);
@@ -1137,9 +1137,9 @@ p{
     font-size: 0.9rem;
   }
 
-  /* ============================== */
+  /* ! ============================== */
 
-  /* HERO SECTION */
+  /* ? HERO SECTION */
   .hero-container{
     padding: 1rem 10rem 0rem 10rem;
   }
@@ -1160,9 +1160,9 @@ p{
     width: 50% !important;
   }
 
-  /* ============================== */
+  /* ! ============================== */
   
-  /* BRAND LOGOS SECTION */
+  /* ? BRAND LOGOS SECTION */
   .brand-logos-container{
     margin-top: 0;
     padding: 2rem 6rem;
@@ -1184,40 +1184,40 @@ p{
     width: 40%;
   }
 
-  /* ============================== */
+  /* ! ============================== */
   
-  /* ABOUT US SECTION */
+  /* ? ABOUT US SECTION */
   .container-about-us{
     flex-direction: row;
     padding: 6rem 15rem 6rem 15rem !important;
     gap: 10rem !important;
   }
 
-  /* ============================== */
+  /* ! ============================== */
   
-  /* STATISTCS SECTION */
+  /* ? STATISTCS SECTION */
   .container-statistcs {
     padding: 6rem 10rem;
   }
   
-  /* ============================== */
+  /* ! ============================== */
   
-  /* FEATURES SECTION */
+  /* ? FEATURES SECTION */
   .container-features{
     flex-direction: row;
     padding: 0rem 10rem;
   }
 
-    /* ============================== */
+  /* ! ============================== */
   
-  /* JOIN NOW SECTION */
+  /* ? JOIN NOW SECTION */
   .container-join-now{
     padding: 5rem 10rem 0rem 15rem;
   }
 
-    /* ============================== */
+  /* ! ============================== */
     
-  /* SERVICES SECTION */
+  /* ? SERVICES SECTION */
   .container-services{
     padding: 10rem 10rem 0rem 15rem;
     display: flex;
@@ -1225,9 +1225,9 @@ p{
     justify-content: start;
   }
 
-    /* ============================== */
+  /* ! ============================== */
     
-  /* FOOTER */
+  /* ? FOOTER */
   .container-footer{
     padding-right: 8rem;
     padding-left: 8rem;
